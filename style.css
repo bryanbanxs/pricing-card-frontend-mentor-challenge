@@ -1,0 +1,150 @@
+html {
+  background-color: purple;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 35px;
+  font-family: 'Karla', sans-serif;
+}
+
+h2, h4, p {
+  margin: 0;
+}
+
+#card {
+  width: 700px;
+  height: 500px;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0,0.35);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#top {
+  width: 100%;
+  height: 45%;
+  padding: 40px;
+  background-color: white;
+}
+
+#bottom {
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+
+#bottom-left {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #59B0B0;
+  padding: 25px;
+}
+#bottom-right {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  background-color: #6BBBBB;
+  vertical-align: top;
+  padding: 25px;
+}
+
+#top h2 {
+  color: #2ab2af;
+  margin-bottom: 25px;
+}
+
+#top h4 {
+  color: #c0df34;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#top p {
+  color: hsl(218, 22%, 67%);
+  line-height: 25px;
+  font-size: 16px;
+  letter-spacing: .5px;
+}
+
+#bottom-left h4 {
+  margin: 10px;
+  font-size: 17px;
+  font-weight: normal;
+  letter-spacing: 1.3px;
+}
+
+#bottom .price {
+  display: inline-block;
+ font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  margin-left: 10px;
+}
+#bottom .recurrence {
+  display: inline-block;
+  font-weight: 100;
+  opacity: 0.8;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  margin: 25px;
+  position: relative;
+  bottom: 5px;
+  right: 10px;
+  
+}
+
+#bottom p {
+  margin: 10px;
+  position: relative;
+  left: 7px;
+  bottom: 15px;
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 1.2px;
+}
+
+button {
+  color: white;
+  font-size: 15px;
+  font-family: inherit;
+  font-weight: 400;
+  background-color: #C6DE56;
+  width: 90%;
+  padding: 18px;
+  margin: 15px;
+  display: grid;
+  position: relative;
+  top: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0,0.75);
+}
+button:hover {
+  cursor: pointer;
+  background-color: #A9C42D;
+  transform: scale (1.02);
+}
+
+#bottom-right h4 {
+  margin: 10px;
+  font-size: 17px;
+  font-weight: normal;
+  letter-spacing: 1.3px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  opacity: 0.8;
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+}
